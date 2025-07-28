@@ -96,7 +96,7 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "𝐆𝐇𝐎𝐒𝐓 𝐌𝐃 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃",
-thumbnailUrl: "https://ibb.co/fGX3Ys3j",
+thumbnailUrl: "https://i.ibb.co/35wC0DMv/Queen-Rashu-Md.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VbB0yJU0gcfEFj6z2t05",
 mediaType: 1,
 renderLargerThumbnail: true
@@ -130,7 +130,7 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "𝐆𝐇𝐎𝐒𝐓 𝐌𝐃 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃",
-thumbnailUrl: "https://ibb.co/fGX3Ys3j",
+thumbnailUrl: "https://i.ibb.co/35wC0DMv/Queen-Rashu-Md.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VbB0yJU0gcfEFj6z2t05",
 mediaType: 2,
 renderLargerThumbnail: true,
