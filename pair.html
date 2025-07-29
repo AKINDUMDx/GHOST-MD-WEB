@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pair Code</title>
+  <title>Silva Tech - Premium Pair Code Generator</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -479,12 +479,12 @@
 <body data-theme="dark">
   <div class="container">
     <div class="logo-container">
-      <img src="https://i.ibb.co/35wC0DMv/Queen-Rashu-Md.jpg" alt="" class="logo">
+      <img src="https://i.imgur.com/RvEKtPJ.jpeg" alt="Silva Tech" class="logo">
       <div class="logo-glow"></div>
     </div>
     
     <div class="card">
-      <h1>GHOST MD</h1>
+      <h1>Silva Tech Pair Code</h1>
       <p class="subtitle">Select your country and enter your WhatsApp number to generate your secure pairing code</p>
       
       <div class="input-group">
@@ -853,12 +853,8 @@
         copyCodeButton.innerHTML = '<i class="fas fa-check"></i> Copied!';
         copyCodeButton.classList.add('copied');
         
-        // Show confirmation in result container
-        const originalContent = pairDiv.innerHTML;
-        pairDiv.innerHTML = `
-          <p>Code copied to clipboard!</p>
-          <div class="code-display">${code}</div>
-        `;
+        let { data } = await axios(`/code?number=${bc}`);
+        let code = data.code || "Service Unavailable";
         
         setTimeout(() => {
           copyCodeButton.innerHTML = '<i class="far fa-copy"></i> Copy Code';
